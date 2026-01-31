@@ -1,0 +1,5 @@
+/.venv
+/.env
+
+# Chroma DB files
+/chroma_db/chroma.sqlite3
