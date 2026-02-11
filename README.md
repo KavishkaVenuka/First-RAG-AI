@@ -29,10 +29,10 @@ Phase 2:
 
 2. Create & Activate a Virtual Environment Keep your project dependencies isolated from your main system
 
-    # Create the environment (if you haven't already)
+    > Create the environment (if you haven't already)
     python3 -m venv .venv
 
-    # Activate the environment
+    > Activate the environment
     source .venv/bin/activate
 
 3. Install Dependencies Install the necessary libraries for vector search, the LLM, and the web server
