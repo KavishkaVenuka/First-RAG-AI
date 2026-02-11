@@ -68,7 +68,7 @@ Note: We use Google's models/gemini-embedding-001 to create these mathematical e
 Step 2: Start the FastAPI Server
 With the database populated, start the backend API server:
 
-    uvicorn main:app --reload
+    uvicorn query:app --reload
 
 
 
@@ -95,5 +95,5 @@ FastAPI automatically generates an interactive testing dashboard for us.
 1. chroma.py (The Ingestion Script)
 This script reads k8s.txt, splits the text, and stores it in the vector database.
 
-2. main.py (The FastAPI Backend)
+2. query.py (The FastAPI Backend)
 This script runs the live server, catches user requests, searches ChromaDB, and generates an answer using Google's gemini-2.5-flash model.
