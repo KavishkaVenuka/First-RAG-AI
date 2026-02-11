@@ -18,6 +18,7 @@ Phase 2:
 #Prerequisites
 
 > Python 3.12+ installed on your system.
+
 > A Google Gemini API Key (from Google AI Studio).
 
 
