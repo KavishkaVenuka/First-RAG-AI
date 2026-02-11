@@ -15,7 +15,7 @@ Phase 2:
     Retrieval & Generation (Answering the User) When a user asks a question, we translate their English question into math, search the database for the closest matching text chunks (Retrieval), and then send the question plus the retrieved chunks to the AI (Generation) with strict instructions to only use the provided facts.
 
 
-#Prerequisites
+# Prerequisites
 
 > Python 3.12+ installed on your system.
 
