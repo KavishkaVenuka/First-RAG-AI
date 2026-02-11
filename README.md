@@ -32,6 +32,7 @@ Phase 2:
     > Create the environment (if you haven't already)
     
     python3 -m venv .venv
+    
 
     > Activate the environment
     
