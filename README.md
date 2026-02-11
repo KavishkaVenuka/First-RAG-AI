@@ -4,9 +4,9 @@ This project is a custom-built Retrieval-Augmented Generation (RAG) system desig
 
 # What is RAG?
 
-*RAG (Retrieval-Augmented Generation) is an AI architecture that connects a Large Language Model (LLM) to a private database of facts.*
+   *RAG (Retrieval-Augmented Generation) is an AI architecture that connects a Large Language Model (LLM) to a private database of facts.*
 
-*Instead of relying on the AI's general training data (which might be outdated or hallucinated), RAG forces the AI to read specific, retrieved documents before answering. Think of it like a two-step "Open Book" test.*
+   *Instead of relying on the AI's general training data (which might be outdated or hallucinated), RAG forces the AI to read specific, retrieved documents before answering. Think of it like a two-step "Open Book" test.*
 
 Phase 1: 
     Ingestion (Stocking the Library) We take a large text document (k8s.txt), chop it into smaller "chunks," and translate those chunks into mathematical vectors (embeddings). We store these vectors in a local database (ChromaDB). This usually runs just once.
