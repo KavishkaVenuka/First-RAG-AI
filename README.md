@@ -10,11 +10,11 @@ This project is a custom-built Retrieval-Augmented Generation (RAG) system desig
 
 > Phase 1: 
 
-        Ingestion (Stocking the Library) We take a large text document (k8s.txt), chop it into smaller "chunks," and translate those chunks into mathematical vectors (embeddings). We store these vectors in a local database (ChromaDB). This usually runs just once.
+Ingestion (Stocking the Library) We take a large text document (k8s.txt), chop it into smaller "chunks," and translate those chunks into mathematical vectors (embeddings). We store these vectors in a local database (ChromaDB). This usually runs just once.
 
 > Phase 2: 
 
-        Retrieval & Generation (Answering the User) When a user asks a question, we translate their English question into math, search the database for the closest matching text chunks (Retrieval), and then send the question plus the retrieved chunks to the AI (Generation) with strict instructions to only use the provided facts.
+Retrieval & Generation (Answering the User) When a user asks a question, we translate their English question into math, search the database for the closest matching text chunks (Retrieval), and then send the question plus the retrieved chunks to the AI (Generation) with strict instructions to only use the provided facts.
 
 
 # Prerequisites
