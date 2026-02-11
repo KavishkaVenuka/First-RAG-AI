@@ -31,12 +31,12 @@ Phase 2:
 
     > Create the environment (if you haven't already)
     
-    python3 -m venv .venv
-    
+        python3 -m venv .venv
+
 
     > Activate the environment
     
-    source .venv/bin/activate
+        source .venv/bin/activate
 
 3. Install Dependencies Install the necessary libraries for vector search, the LLM, and the web server
 
