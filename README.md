@@ -76,17 +76,17 @@ With the database populated, start the backend API server:
 
 FastAPI automatically generates an interactive testing dashboard for us.
 
-    Open your web browser and navigate to: http://127.0.0.1:8000/docs
+> Open your web browser and navigate to: http://127.0.0.1:8000/docs
 
-    Expand the green GET /query endpoint.
+> Expand the green GET /query endpoint.
 
-    Click "Try it out".
+> Click "Try it out".
 
-    In the request field, type a question related to your k8s.txt file (e.g., "What is a pod?").
+> In the request field, type a question related to your k8s.txt file (e.g., "What is a pod?").
 
-    Click Execute.
+> Click Execute.
 
-    Scroll down to see the AI's response in the "Server response" body!
+> Scroll down to see the AI's response in the "Server response" body!
 
 
 
