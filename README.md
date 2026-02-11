@@ -40,7 +40,9 @@ Phase 2:
 
 3. Install Dependencies Install the necessary libraries for vector search, the LLM, and the web server
 
-    pip install chromadb langchain-text-splitters google-generativeai python-dotenv fastapi uvicorn
+    > Use the command to install the dependencies
+
+        pip install chromadb langchain-text-splitters google-generativeai python-dotenv fastapi uvicorn
 
 4. Configure Environment Variables Create a .env file in the root of your project directory and add your Google API key
 
