@@ -46,7 +46,9 @@ Phase 2:
 
 4. Configure Environment Variables Create a .env file in the root of your project directory and add your Google API key
 
-    GEMINI_API_KEY=your_actual_api_key_here
+    >Replace your api key with "your_actual_api_key_here"
+
+        GEMINI_API_KEY=your_actual_api_key_here
 
 
 
