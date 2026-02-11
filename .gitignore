@@ -3,3 +3,6 @@
 
 # Chroma DB files
 /chroma_db/chroma.sqlite3
+
+#pycache folder
+/__pycache__
