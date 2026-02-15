@@ -4,6 +4,8 @@ This project is a custom-built Retrieval-Augmented Generation (RAG) system desig
 
 > Replace the text what you want to add to the RAG system with k8s.txt file. Then you are good to go!
 
+<i>For now this system only accepts text files.(.txt)</i>
+
 # What is RAG?
 
    *RAG (Retrieval-Augmented Generation) is an AI architecture that connects a Large Language Model (LLM) to a private database of facts.*
