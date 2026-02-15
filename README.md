@@ -23,7 +23,7 @@ Retrieval & Generation (Answering the User) When a user asks a question, we tran
 
 > Python 3.12+ installed on your system.
 
-> A Google Gemini API Key (from Google AI Studio).
+> <a href="https://aistudio.google.com/">A Google Gemini API Key (from Google AI Studio).</a>
 
 
     
