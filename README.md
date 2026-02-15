@@ -1,6 +1,8 @@
 # FIRST RAG AI Project
 
-This project is a custom-built Retrieval-Augmented Generation (RAG) system designed to answer user questions about Kubernetes based on a specific, private text document (k8s.txt). It uses ChromaDB as the vector database for memory, Google's Gemini API as the "Brain" for text generation, and FastAPI to serve everything as a modern web API.
+This project is a custom-built Retrieval-Augmented Generation (RAG) system designed to answer user questions based on given private text document (k8s.txt). It uses ChromaDB as the vector database for memory, Google's Gemini API as the "Brain" for text generation, and FastAPI to serve everything as a modern web API.
+
+> Replace the text what you want to add to the RAG system with k8s.txt file. Then you are good to go!
 
 # What is RAG?
 
