@@ -101,3 +101,5 @@ This script reads k8s.txt, splits the text, and stores it in the vector database
 
 2. query.py (The FastAPI Backend)
 This script runs the live server, catches user requests, searches ChromaDB, and generates an answer using Google's gemini-2.5-flash model.
+
+<i>- Kavishka Venuka</i>
